@@ -1299,7 +1299,25 @@ form label {
 }
 
 .gtco-content {
-    margin-top: 25%
+    margin-top: 15%
 }
 
+#gtco-content-logo{
+  height: 150px;
+  width: 300px;
+  background-image: url(../images/nave04.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.home-content{
+  color: #fff !important;
+  font-size: 13pt;
+}
+
+.home-content h1{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #fff !important;
+}
 /*# sourceMappingURL=style.css.map */
