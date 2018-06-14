@@ -145,6 +145,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
 .gtco-nav ul li a:hover, .gtco-nav ul li a:focus, .gtco-nav ul li a:active {
   color: #fff;
 }
@@ -399,7 +400,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gtco-cover {
-  height: 900px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -425,11 +425,13 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   z-index: 10;
 }
+/*
 @media screen and (max-width: 768px) {
   .gtco-cover {
     height: 600px;
   }
 }
+*/
 .gtco-cover .display-t,
 .gtco-cover .display-tc {
   height: 900px;
@@ -1294,6 +1296,10 @@ form label {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.gtco-content {
+    margin-top: 25%
 }
 
 /*# sourceMappingURL=style.css.map */
