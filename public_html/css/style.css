@@ -520,7 +520,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: -1.6em;
   left: 0;
   text-transform: uppercase;
-  font-size: 208px;
+  font-size: 180px;
   color: #F8F8F8;
   font-weight: 900;
   z-index: -1;
@@ -531,10 +531,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #gtco-practice-areas .heading .subtle-text {
   position: absolute;
-  bottom: -1.6em;
   left: 0;
   text-transform: uppercase;
-  font-size: 208px;
+  font-size: 150px;
   color: #F8F8F8;
   font-weight: 900;
   z-index: -1;
@@ -564,15 +563,19 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 24px;
 }
 
+#gtco-practice-areas .gtco-practice-area-item .gtco-copy p {
+  text-align: justify; 
+  text-justify: inter-word;
+}
+
 #gtco-our-team .heading {
   position: relative;
 }
 #gtco-our-team .heading .subtle-text {
   position: absolute;
-  bottom: -1.6em;
   left: 0;
   text-transform: uppercase;
-  font-size: 208px;
+  font-size: 150px;
   color: #F8F8F8;
   font-weight: 900;
   z-index: -1;
@@ -614,7 +617,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: -1em;
   left: 0;
   text-transform: uppercase;
-  font-size: 208px;
+  font-size: 150px;
   color: #F8F8F8;
   font-weight: 900;
   z-index: -1;
@@ -1319,5 +1322,10 @@ form label {
   margin-top: 10px;
   margin-bottom: 15px;
   color: #fff !important;
+}
+
+.info-section p{
+  text-align: justify;
+  text-justify: inter-word;
 }
 /*# sourceMappingURL=style.css.map */
