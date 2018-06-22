@@ -6,10 +6,9 @@ $_captcha = $_POST['g-recaptcha-response'];
 
 $name = strtoupper($name);
 
-$to      = 'crivero@navefoods.com';
-$title    = 'Contact Form send by '.$name;
-$headers = 'From: crivero@navefoods.com' . "\r\n" .
-    'Reply-To: crivero@navefoods.com' . "\r\n" .
+$to      = 'info@navefoods.com';
+$title    = 'Contact form send by '.$name;
+$headers = 'From: info@navefoods.com' . "\r\n" .
     'Content-type: text/html; charset=iso-8859-1' . "\r\n".
     'X-Mailer: PHP/' . phpversion();
 
